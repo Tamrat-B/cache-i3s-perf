@@ -1,10 +1,11 @@
 {
   "name": "template",
   "version": "1.0.0",
-  "description": "ArcGIS API 4 for JavaScript - Test",
+  "description": "I3S Layer Performance Test",
   "repository": {
     "type": "git",
-    "url": "git@github.com:sasc9948/cache-i3s-perf.git"
+    "url": "git@github.com:Tamrat-B/cache-i3s-perf.git"
+
   },
   "scripts": {
     "dev": "concurrently --kill-others \"tsc -w\"",
@@ -14,7 +15,7 @@
     "esri",
     "typescript"
   ],
-  "author": "Sascha Brunner <sbrunner@esri.com>",
+  "author": "Based on work by Sascha Brunner <sbrunner@esri.com>",
   "license": "Apache-2.0",
   "devDependencies": {
     "concurrently": "^4.1.0",
