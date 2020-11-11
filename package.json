@@ -1,0 +1,28 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "description": "ArcGIS API 4 for JavaScript - Test",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:sasc9948/cache-i3s-perf.git"
+  },
+  "scripts": {
+    "dev": "concurrently --kill-others \"tsc -w\"",
+    "lint": "tslint './src/*.ts'"
+  },
+  "keywords": [
+    "esri",
+    "typescript"
+  ],
+  "author": "Sascha Brunner <sbrunner@esri.com>",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "concurrently": "^4.1.0",
+    "tslint": "^5.16.0"
+  },
+  "dependencies": {
+    "@types/arcgis-js-api": "^4.11.0",
+    "@types/dojo": "1.9.41",
+    "typescript": "3.4"
+  }
+}
